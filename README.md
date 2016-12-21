@@ -1,5 +1,10 @@
 # TCP Socat
 
+[![](https://images.microbadger.com/badges/image/basi/socat.svg)](https://microbadger.com/images/basi/socat "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/basi/socat.svg)](https://microbadger.com/images/basi/socat "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/commit/basi/socat.svg)](https://microbadger.com/images/basi/socat "Get your own commit badge on microbadger.com")
+
+
 Provides the possibility of cat a TCP connection to a defined PORT.
 
 ## Use cases
