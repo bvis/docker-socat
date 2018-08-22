@@ -1,10 +1,10 @@
 FROM alpine:3.4
 
-ARG "version=0.1.0-dev"
-ARG "build_date=unknown"
-ARG "commit_hash=unknown"
-ARG "vcs_url=unknown"
-ARG "vcs_branch=unknown"
+ARG version="0.1.0-dev"
+ARG build_date="unknown"
+ARG commit_hash="unknown"
+ARG vcs_url="unknown"
+ARG vcs_branch="unknown"
 
 LABEL org.label-schema.vendor="Softonic" \
     org.label-schema.name="Socat" \
@@ -21,8 +21,8 @@ LABEL org.label-schema.vendor="Softonic" \
 OUT=Output" \
     org.label-schema.build-date=$build_date
 
-ENV "IN=172.17.0.1:4999" \
-    "OUT=4999"
+ENV IN="172.17.0.1:4999" \
+    OUT="4999"
 
 RUN apk add --no-cache socat
 
